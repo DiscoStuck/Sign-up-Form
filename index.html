@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ovall - Signup Form</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <div id="imageCol">
+        <h2 class="ovalTitle">Ovall</h2>
+    </div>
+
+    <div id="formCol">
+
+        <div class="formDiv" id="introDiv">
+            <div class="textDiv">
+            <p>Welcome to our Ovall!</p>
+            <p>Have you ever wondered what AI is capable of? Come and explore the world of AI with us. Our website is a hub of information and resources on this fascinating technology, and by creating an account, you can unlock a wealth of knowledge and insights.</p>    
+            <p>Join our community of AI enthusiasts and discover the endless possibilities of this technology. Sign up today and start your journey into the world of AI.</p>
+            </div>
+        </div>
+
+        <div class="formDiv" id="inputDiv">
+            <form action="" method="post" name="registerForm" id="registerForm">
+
+                <div class="dataDiv">
+                    <label for="firstName">First Name</label>
+                    <input type="text" name="firstName">
+                </div>
+
+                <div class="dataDiv">
+                    <label for="lastName">Last Name</label>
+                    <input type="text" name="lastName">
+                </div>
+
+                <div class="dataDiv">
+                    <label for="email">Email</label>
+                    <input type="email" name="email">
+                 </div>
+                
+                <div class="dataDiv">
+                    <label for="phoneNumber">Phone Number</label>
+                    <input type="tel" name="phoneNumber">
+                </div>
+
+                <div class="dataDiv">
+                    <label for="password">Password</label>
+                    <input type="password" name="password" id="inputPassword">
+                </div>
+
+                <div class="dataDiv">
+                    <label for="repeatPassword">Repeat Password</label>
+                    <input type="password" name="repeatPassword" id="inputRepeatPassword">
+                    <span id="errorPassword"></span>
+                </div>
+
+            </form>
+        </div>
+
+        <div class="formDiv" id="submitDiv"> 
+            <div id="buttonDiv">
+                <button form="registerForm" type="submit">Create Account</button>
+            </div>
+            <p>Already have an account?  <a href="">Log In</a></p>
+
+        </div>
+    </div>
+</body>
+</html>
